@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url('../images/back1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+
+.wrapper {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.player-0-panel{
+    width: 100%;
+    float: left;
+    height: 600px;
+}
+/*
+
+*/
+
+.player-name {
+    font-size: 30px;
+    text-align: center;
+/*    text-transform: uppercase;*/
+    letter-spacing: 2px;
+    font-weight: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    color:black;
+}
+
+.play {
+      position: absolute;
+    left:50%;
+    bottom:50%;
+    font-size: 25px;
+}
+
+.btn-new {
+    position: absolute;
+    left:50%;
+    bottom:50%;
+    font-size: 25px;
+    
+}
+
+button {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.rightLetters {
+    
+    position: fixed;
+    left:13%;
+    bottom:6.30%;
+}
+
+.wrongLetters {
+    position: fixed;
+    left:13%; 
+    bottom:3.40%
+}
+
+.numbersLeft {
+    
+    position: fixed;
+    left:13%; 
+    bottom: 0.40%;
+}
+
+.guessLeft {
+    
+    position: fixed;
+    bottom: 0.40%;
+}
+.wrongGuess {
+    
+    position: fixed;
+    bottom:3.40%
+}
+
+.rightGuess {
+    
+    position: fixed;
+    bottom:6.30%;
+}
+#picture {
+    
+    position: fixed;
+}
+.play_again {
+    position: absolute;
+    left:50%;
+    bottom:50%;
+}
+/*button {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover { font-weight: 600; }
+button:hover i { margin-right: 20px; }
+
+button:focus {
+    outline: none;
+}
+
+i {
+    color: #EB4D4D;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 32px;
+    line-height: 1;
+    vertical-align: text-top;
+    margin-top: -4px;
+    transition: margin 0.3s;
+}*/
